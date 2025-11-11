@@ -1,0 +1,19 @@
+java script 
+ it is a high level language that adds up action to your screen 0r make your screen live
+script : coding structur or coding syntax
+multiple line comment=select all line ctrl+/ or shift+alt+a
+
+var:
+ var is function scope
+ it can be redeclare
+ it can be re initialize
+
+ let:
+ let is block scope
+ it cannot be redeclare
+ it can be re initialize
+
+ const:
+ const is block scope
+ it cannot be redeclare
+ it cannot be re initialize
