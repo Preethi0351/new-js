@@ -17,3 +17,11 @@ var:
  const is block scope
  it cannot be redeclare
  it cannot be re initialize
+
+ git branch
+ git status
+ git add .
+ git status
+ git commit -m "my first commit";
+ git status
+ git push
