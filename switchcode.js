@@ -10,5 +10,6 @@ let type="tier2";
         console.log("i will get the package of 5LPA");
          break;
         default:
-            console.log("no job")
+            console.log("no job");
     }
+    

@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            function abc(){
+                console.log("I am in change method");
+            }
+            function MNC(){
+                console.log("I am in blur method");
+
+            }
+            function EFG(){
+                console.log("I am executed mouse over");
+            }
+            function PQR(){
+                console.log("I am executed mouse out");
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" name="fname" onblur="MNC()" onchange="abc()" value=""/> onchange and onblur is most used
+        <button onmouseover="EFG()" onmouseout="PQR()">submit</button>
+    </body>
+</html>
