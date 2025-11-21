@@ -1,4 +1,4 @@
-// //global scope
+//important //global scope
 // let name="Preethi";
 // function outer(){
 //     console.log(name)
