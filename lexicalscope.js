@@ -1,4 +1,6 @@
-//important //global scope
+//important
+// 
+ //global scope
 // let name="Preethi";
 // function outer(){
 //     console.log(name)
@@ -30,6 +32,13 @@
 // }
 // outer();
 
+// scope type      visibility
+// global scope     everywhere
+// function scope   inside the function
+// block scope      inside {} blocks
+// nested scope      inner->outer (via scope chain)
+// module scope     within the module file
+
 
 let name="preethi";
 function outer(){
@@ -44,3 +53,12 @@ function outer(){
     inner();
 }
 outer();
+
+
+
+
+
+
+
+
+

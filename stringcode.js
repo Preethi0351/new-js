@@ -13,6 +13,7 @@
 let text="I am in bangalore";
 console.log(text.reverse);
 console.log(text.split(""));
+
 // console.log(text.split(" "));
 // console.log(text.split("  "));
 console.log(text.split("").reverse());

@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial;
+}
+
+/* Top section */
+.top {
+    display: flex;
+    gap: 20px;
+}
+
+/* Box 1 left side */
+.box1 {
+    width: 200px;
+    height: 250px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Right side boxes 6,7,8 */
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-box {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* Bottom row 2,3,4,5 */
+.bottom {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.bottom-box {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Top section -->
+    <div class="top">
+        <div class="box1">1</div>
+
+        <div class="right">
+            <div class="small-box">6</div>
+            <div class="small-box">7</div>
+            <div class="small-box">8</div>
+        </div>
+    </div>
+
+    <!-- Bottom section -->
+    <div class="bottom">
+        <div class="bottom-box">2</div>
+        <div class="bottom-box">3</div>
+        <div class="bottom-box">4</div>
+        <div class="bottom-box">5</div>
+    </div>
+
+</div>
+
+</body>
+</html>
